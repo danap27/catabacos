@@ -4,13 +4,16 @@ const Contact = () => {
   return (
     <div
       style={{
-        display: "flex",
-        justifyContent: "Right",
-        alignItems: "Right",
-        height: "100vh",
+        display: "inline",
+        // justifyContent: "Right",
+        // alignItems: "Right",
+        // height: "100vh",
       }}
     >
-      <h1>Contactar a Catabacos</h1>
+      <div class="container">
+        <h1 class="neon">Catabacos</h1>
+        <h1 class="neon2">Store</h1>
+      </div>
     </div>
   );
 };

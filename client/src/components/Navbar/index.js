@@ -25,7 +25,7 @@ const Navbar = () => {
             Contacto
           </NavLink>
           <NavLink to="/about" activeStyle>
-            About
+            Acerca
           </NavLink>
           <NavLink to="/sign-up" activeStyle>
             Registrarse

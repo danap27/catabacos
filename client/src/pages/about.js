@@ -2,15 +2,18 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
+<div
       style={{
-        display: "flex",
-        justifyContent: "Right",
-        alignItems: "Right",
-        height: "100vh",
+        display: "inline",
+        // justifyContent: "Right",
+        // alignItems: "Right",
+        // height: "100vh",
       }}
     >
-      <h1>Aquí se habla sobre Catabacos</h1>
+      <div class="container">
+        <h1 class="neon">Catabacos</h1>
+        <h1 class="neon2">Store</h1>
+      </div>
     </div>
   );
 };
